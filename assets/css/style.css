@@ -3,9 +3,6 @@
 /* blueprint */
 body {
   font-family: 'PT Sans', Helvetica, Arial, YuGothic, 'Kozuka Gothic std', sans-serif;
-}
-
-body {
   line-height: 1;
 }
 
@@ -274,7 +271,8 @@ span::after {
   position: relative;
 }
 
-.gender-content input, .course input {
+.gender-content input, 
+.course input {
   display: none;
 }
 
@@ -319,6 +317,16 @@ span::after {
   padding: 13px;
 }
 
+.submit-button:hover {
+  background-color: #01a6a4;
+}
+
+.submit-button:active {
+  background-color: #fff;
+  color: #01a6a4;
+  border: 1px solid #d9d9d9;
+}
+
 /* agreement */
 .agreement {
   font-size: 12px;
@@ -336,8 +344,17 @@ span::after {
   font-size: 12px;
 }
 
+.footer-part a:hover {
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;;
+}
+
 .link-color {
   color: #01a6a4;
+}
+
+.link-color:hover {
+  color: #01bfbd;
 }
 
 .resend-mail {
